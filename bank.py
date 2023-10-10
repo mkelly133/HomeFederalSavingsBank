@@ -7,12 +7,8 @@ Implement a program that prompts the user for a greeting. If the greeting starts
 greeting = input("Greeting: ")
 
 # TODO work out if the greeting starts with an H or a Hello
-if greeting.upper() == 'HELLO':
-    payment = "$0"
-elif greeting[0].upper() == 'H':
-    payment = "$20"
-else:
-    payment= "$100"
+payment = "$0"
+
 
 # Outline payout
 print(payment)
